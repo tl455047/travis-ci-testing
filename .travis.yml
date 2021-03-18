@@ -1,0 +1,6 @@
+language: java
+jdk:
+  -openjdk15
+install: 
+script:
+  - mvn test -B
