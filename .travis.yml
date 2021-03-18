@@ -1,5 +1,5 @@
 language: java
-jdk: openjdk15
-install: 
+jdk: 
+  - oraclejdk11
 script:
-  mvn test -B
+  - mvn test -B
