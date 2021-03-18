@@ -3,5 +3,4 @@ jdk:
   - openjdk15
 install: 
 script:
-  - mvn clean
-  - mvn test 
+  mvn test -B
