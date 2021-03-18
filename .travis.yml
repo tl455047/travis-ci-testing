@@ -1,7 +1,5 @@
 language: java
 jdk: 
-  - oraclejdk11
+  - openjdk15
 script:
-  - mvn clean
-  - mvn compile
   - mvn test -B
