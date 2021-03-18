@@ -28,6 +28,7 @@ class PriorityQueueTest {
 
     @Test
     void offer() {
+      assertEquals(0, 0);
     }
 
     @Test
